@@ -15,7 +15,7 @@ Vue.use(mint);
 //};
 Vue.config.devtools = true
 axios.defaults.timeout = 5000; // 默认5s超时
-axios.defaults.baseURL = 'http://192.168.48.53:3000/v1/';
+axios.defaults.baseURL = 'https://netease-cloud-music-api-clone.vercel.app/';
 //axios.defaults.withCredentials=true;// 请求带上cookie
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 axios.interceptors.request.use(function(config) { // 这里的config包含每次请求的内容
